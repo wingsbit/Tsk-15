@@ -1,36 +1,44 @@
-// N1
-// for(i=0;i<50;i++){
-//     console.log(i);
-// }
+// 1. 
 
-// N2
-
-// let a =0;
-// while(a < 50){
-//     console.log(a);
-//     a++;
-// }
-
-// N3
+for(i=0;i<50;i++){
+    console.log(i);
+}
 
 
-// let i = 0;
-// do {
-//     console.log(i);
-//     i = i+1;
-// } while (i < 5);
+// 2.
 
-// 4
-// const numbers = [1,2,5,7,8,10,23,24,26];
-// for (i = 0; i <= numbers.length; i++){
-//     if(numbers[i] % 2 == 0){
+let a =0;
+while(a < 20){
+    console.log(a);
+    a++;
+}
 
-//     console.log(numbers[i]);
-//     }
 
-// }
+// 3.
 
-// 5
+
+let i = 0;
+do {
+    console.log(i);
+    i = i+1;
+} while (i < 5);
+
+
+// 4.
+
+
+const numbers = [1,2,5,7,8,10,23,24,26];
+for (i = 0; i <= numbers.length; i++){
+    if(numbers[i] % 2 == 0){
+
+    console.log(numbers[i]);
+    }
+
+}
+
+
+// 5.
+
 const currentDay = new Date().getDay(); 
 
 
@@ -60,6 +68,7 @@ switch(currentDay){
 }
 
 
+// 6.
 
 const currencies = [
 	{
