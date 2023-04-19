@@ -1,3 +1,36 @@
+// N1
+// for(i=0;i<50;i++){
+//     console.log(i);
+// }
+
+// N2
+
+// let a =0;
+// while(a < 50){
+//     console.log(a);
+//     a++;
+// }
+
+// N3
+
+
+// let i = 0;
+// do {
+//     console.log(i);
+//     i = i+1;
+// } while (i < 5);
+
+// 4
+// const numbers = [1,2,5,7,8,10,23,24,26];
+// for (i = 0; i <= numbers.length; i++){
+//     if(numbers[i] % 2 == 0){
+
+//     console.log(numbers[i]);
+//     }
+
+// }
+
+// 5
 const currentDay = new Date().getDay(); 
 
 
@@ -25,6 +58,7 @@ switch(currentDay){
         break;
         
 }
+
 
 
 const currencies = [
